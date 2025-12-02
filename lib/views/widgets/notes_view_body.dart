@@ -14,7 +14,7 @@ class NotesViewBody extends StatelessWidget {
       child: Column(
         children: const [
           SizedBox(height: 50),
-          CustomAppBar(),
+          CustomAppBar(text: 'Notes',icon: Icons.search,),
           SizedBox(height: 50),
           Expanded(
             child: Padding(
